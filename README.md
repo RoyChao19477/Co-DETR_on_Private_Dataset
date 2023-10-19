@@ -5,9 +5,8 @@ CSIE5428-NTU-2023: A repository for training an Object Detection model on a priv
 
 ======
 
-> **_ The text below constitutes the official README content from the CoDETR repository. _**
+## The text below constitutes the official README content from the CoDETR repository.
 
-======
 # DETRs with Collaborative Hybrid Assignments Training
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/detrs-with-collaborative-hybrid-assignments/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=detrs-with-collaborative-hybrid-assignments)
