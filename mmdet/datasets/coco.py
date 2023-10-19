@@ -22,6 +22,10 @@ from .custom import CustomDataset
 @DATASETS.register_module()
 class CocoDataset(CustomDataset):
 
+<<<<<<< HEAD
+=======
+    """
+>>>>>>> first-repo/main
     CLASSES = ('person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus',
                'train', 'truck', 'boat', 'traffic light', 'fire hydrant',
                'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog',
@@ -58,6 +62,13 @@ class CocoDataset(CustomDataset):
                (127, 167, 115), (59, 105, 106), (142, 108, 45), (196, 172, 0),
                (95, 54, 80), (128, 76, 255), (201, 57, 1), (246, 0, 122),
                (191, 162, 208)]
+<<<<<<< HEAD
+=======
+    """
+    CLASSES = ('creatures', 'fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray')
+    PALETTE = [(220, 20, 60), (119, 11, 32), (0, 0, 142), (0, 0, 230),
+               (106, 0, 228), (0, 60, 100), (0, 80, 100), (0, 0, 70)]
+>>>>>>> first-repo/main
 
     def load_annotations(self, ann_file):
         """Load annotation from COCO style annotation file.
@@ -639,6 +650,10 @@ class CocoDataset(CustomDataset):
         self.cat_ids = coco_gt.get_cat_ids(cat_names=self.CLASSES)
 
         result_files, tmp_dir = self.format_results(results, jsonfile_prefix)
+<<<<<<< HEAD
+=======
+
+>>>>>>> first-repo/main
         eval_results = self.evaluate_det_segm(results, result_files, coco_gt,
                                               metrics, logger, classwise,
                                               proposal_nums, iou_thrs,

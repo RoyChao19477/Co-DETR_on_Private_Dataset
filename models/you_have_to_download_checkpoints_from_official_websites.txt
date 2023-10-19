@@ -1,0 +1,15 @@
+# You should download the checkpoint (pretrained models) from the CoDETR Official Github:
+#	https://github.com/Sense-X/Co-DETR
+
+# Here we used the following checkpoints:
+#	co_dino_5scale_lsj_swin_large_22e_o365tolvis.pth
+#	co_dino_5scale_lsj_swin_large_16e_o365tolvis.pth  
+#	co_dino_5scale_lsj_swin_large_2e_o365tolvis.pth   
+#	swin_base_patch4_window12_384_22k.pth
+#	co_dino_5scale_lsj_swin_large_22e_o365.pth        
+#	co_dino_5scale_swin_large_22e_o365.pth
+#	swin_large_patch4_window12_384_22k.pth
+
+# Also, put your fine-tuned moodel here:
+#	best_ckpt.pth                   # This is my fine-tuned best_ckpt.pth                  
+#	epoch_16.pth			# This is my fine-tuned epoch_16.pth

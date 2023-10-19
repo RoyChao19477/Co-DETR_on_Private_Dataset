@@ -230,10 +230,19 @@ def main():
     # old versions did not save class info in checkpoints, this walkaround is
     # for backward compatibility
     if 'CLASSES' in checkpoint.get('meta', {}):
+<<<<<<< HEAD
         model.CLASSES = checkpoint['meta']['CLASSES']
     else:
         model.CLASSES = dataset.CLASSES
 
+=======
+        #model.CLASSES = checkpoint['meta']['CLASSES']
+        model.CLASSES = dataset.CLASSES
+    else:
+        model.CLASSES = dataset.CLASSES
+
+
+>>>>>>> first-repo/main
     if not distributed:
         model = build_dp(model, cfg.device, device_ids=cfg.gpu_ids)
         outputs = single_gpu_test(model, data_loader, args.show, args.show_dir,
@@ -265,6 +274,10 @@ def main():
             ]:
                 eval_kwargs.pop(key, None)
             eval_kwargs.update(dict(metric=args.eval, **kwargs))
+<<<<<<< HEAD
+=======
+
+>>>>>>> first-repo/main
             metric = dataset.evaluate(outputs, **eval_kwargs)
             print(metric)
             metric_dict = dict(config=args.config, metric=metric)

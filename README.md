@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DETRs with Collaborative Hybrid Assignments Training
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/detrs-with-collaborative-hybrid-assignments/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=detrs-with-collaborative-hybrid-assignments)
@@ -145,3 +146,7 @@ If you find this repository useful, please use the following BibTeX entry for ci
 ## License
 
 This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
+=======
+# NTU_CSIE5428_2023_HW1
+CSIE5428-NTU-2023: A repository for training an Object Detection model on a privately-provided dataset as part of the CSIE5428 course at National Taiwan University.
+>>>>>>> first-repo/main
