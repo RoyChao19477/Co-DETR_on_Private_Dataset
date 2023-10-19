@@ -5,7 +5,7 @@ CSIE5428-NTU-2023: A repository for training an Object Detection model on a priv
 
 ======
 
-<span style="color:red"> The text below constitutes the official README content from the CoDETR repository. </span>
+> **_ The text below constitutes the official README content from the CoDETR repository. _**
 
 ======
 # DETRs with Collaborative Hybrid Assignments Training
