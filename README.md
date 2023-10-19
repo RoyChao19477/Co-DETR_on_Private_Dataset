@@ -4,9 +4,7 @@ CSIE5428-NTU-2023: A repository for training an Object Detection model on a priv
 > This is a fork version of CoDETR from official CoDETR repo.
 
 
-## Cite Co-DETR
-
-If you find this repository useful, please use the following BibTeX entry for citation.
+## Major Reference: Co-DETR
 
 ```latex
 @misc{codetr2022,
